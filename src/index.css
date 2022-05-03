@@ -16,7 +16,9 @@ body {
 .header{
   padding: 12px;
   color: floralwhite;
-  background-color: #2c4350;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(44,67,80,1) 35%, rgba(44,67,80,1) 100%);
+  /**background-color: #2c4350;**/
 }
 
 .avatar {
