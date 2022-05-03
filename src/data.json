@@ -44,13 +44,13 @@
           "description": "Développement de nouvelles applications de streaming Video TVPlayer (Android, Android TV | Amazon TV), Librairie Swift Package pour mutualiser le code d'Apps iOS | TvOS"
         },
         {
-          "description": "Reprise et développement d'Applications mobile, Android TV, TvOS en interne: Watchit, Moods, Logicom Portail"
+          "description": "Reprise, développement, refontes pour certaines Applications mobile, Android TV, TvOS: Watchit, Moods, Logicom Portail"
         },
         {
           "description": "Mise en place d'une équipe de développeurs mobile & TV passé de 1 à 6"
         },
         {
-          "description": "Recherche et développement, réalisation de plugins Android | Apple, notamment sur la communication avec l'API, le stockage en DB, les statistiques de consommation vidéo, de divers POCs, gestion de Billing sur différentes plateformes, de Streaming HLS, Picture In Picture"
+          "description": "Recherche et développement, réalisation de plugins Android | Apple, notamment sur la communication avec l'API, le stockage en DB, les statistiques de consommation vidéo, de divers POCs, gestion de Billing sur différentes plateformes, de Streaming HLS, Picture In Picture, SwiftUI"
         }
       ]
     },
