@@ -19,7 +19,7 @@ class Header extends Component {
 	render() {
 		return (
             <div class='header'>
-                <img class='avatar' src={require('./ju.png')} height="120" /> 
+                <img class='avatar hover-zoom' src={require('./ju.png')} height="130" /> 
                 <div class='infos'>
                     <div><b>{ data.User.name }</b></div>
                     <div class='job'><b>{ data.User.job }</b></div>

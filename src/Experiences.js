@@ -4,13 +4,17 @@ import dateFormat, { masks } from "dateformat";
 
 
 function Company(exp){
-  return <span class="logo"><a href={exp.experience.url} target='_blank' ><img src={exp.experience.logo} alt={exp.experience.companyName} height={32}/></a></span>
+	if(exp.experience.companyName.trim() == '')
+		return <span className="Period" class="dates">{exp.experience.companyName}</span>
+
+	return <span class="logo"><a href={exp.experience.url} target="_blank" >
+				<img src={exp.experience.logo} alt={exp.experience.companyName} height={32}/></a></span>
 }
 
-function Period(props) {
-	if(props.experience.endDate.trim() == '')
-		return <span className="Period" class="dates">{props.experience.startDate}</span>
-  return <span className="Period" class="dates">{props.experience.startDate} > {props.experience.endDate}</span>
+function Period(exp) {
+	if(exp.experience.endDate.trim() == '')
+		return <span className="Period" class="dates">{exp.experience.startDate}</span>
+  return <span className="Period" class="dates">{exp.experience.startDate} > {exp.experience.endDate}</span>
 }
 
 class Experiences extends Component {
@@ -30,6 +34,7 @@ class Experiences extends Component {
 								</div>
 									<div>
 									<span>{experience.location}</span>
+
 									<ul>
 											{experience.roles.map(function (role, i) {
 												return <li key={i}> 
