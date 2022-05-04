@@ -4,9 +4,6 @@ import dateFormat, { masks } from "dateformat";
 
 
 function Company(exp){
-	if(exp.experience.companyName.trim() == '')
-		return <span className="Period" class="dates">{exp.experience.companyName}</span>
-
 	return <span class="logo"><a href={exp.experience.url} target="_blank" >
 				<img src={exp.experience.logo} alt={exp.experience.companyName} height={32}/></a></span>
 }
@@ -17,10 +14,23 @@ function Period(exp) {
   return <span className="Period" class="dates">{exp.experience.startDate} > {exp.experience.endDate}</span>
 }
 
+function Experience(exp){
+	if(exp.experience.type.trim() == '')
+		return <span class="role"><b>{exp.experience.job}</b></span>
+
+	return <span class="role"><b>{exp.experience.job}</b> <span class="normal">{exp.experience.type}</span></span>
+}
+
+function Location(exp) {
+	return "https://www.google.com/maps/place/Anytown,{exp.experience}"
+}
+
 class Experiences extends Component {
 	render() {
 		return (
             <div class="experiences">
+				<div class="section-header"><h4>Experiences</h4></div>
+
                 {
 					data.Experiences.map((experience, i) => {
 						return (
@@ -28,12 +38,12 @@ class Experiences extends Component {
 								<div>
 								<div class="exp" >
 									<Company experience={experience} />
-									<span class="role"><b>{experience.job}</b></span>
+									<Experience experience={experience} />
 									<Period experience={experience} />
 
 								</div>
 									<div>
-									<span>{experience.location}</span>
+									<span class="loc">{experience.location}</span>
 
 									<ul>
 											{experience.roles.map(function (role, i) {

@@ -32,30 +32,33 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(44,67,80,1) 35%, rgba
   color: orangered;
 }
 
-.experiences {
-  width: 64%;
-  float: left;
-}
-
 .experience  {
-    box-shadow: 0 0.1rem 1rem 0 rgb(25 25 25 / 10%);
-    padding: 20px 10px 0;
-    margin-left: 20px;
-    margin-top: 12px;
-    margin-bottom: 24px;
+  box-shadow: 0 0.1rem 1rem 0 rgb(25 25 25 / 10%);
+  padding: 20px 10px 0;
+  margin: 20px;
 }
 
-.card {
-    position: relative;
-    background: #fff;
-    border-radius: 0.25em;
-    padding: 1em;
-    -webkit-box-shadow: 0 3px 0 #ddd;
-    box-shadow: 0 3px 0 #ddd;
+.studies, .skills {
+  margin-left: 20px;
+  margin-right: 24px;
 }
 
-h5, .role {
+.card, .skills {
+  background: #fff;
+  border-radius: 0.25em;
+  padding: 1em;
+  -webkit-box-shadow: 0 3px 0 #ddd;
+  box-shadow: 0 3px 0 #ddd;
+}
+
+.skills {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h4, .role {
   font-size: 1.25rem;
+  color: #050a47;
 }
 
 .role {
@@ -72,22 +75,12 @@ h5, .role {
   width: 128px;
 }
 
-.exp{
-  display: flex;
+.section-header {
+  text-align: center;
 }
 
-.studies {
-  float: right;
-  max-width: 34%;
-  margin-top: 12px;
-  margin-right: 24px;
-}
-
-.skills{
-  float: right;
-  width: 31%;
-  margin-top: 24px;
-  margin-right: 24px;
+.normal {
+  font-size: 1rem;
 }
 
 img.hover-zoom {
@@ -97,7 +90,48 @@ img.hover-zoom:hover {
   transform: scale(1.5);
 }
 
+ul {
+  list-style-type: circle;
+}
+
+@media only screen and (min-width: 1279px) {
+  .studies, .skills {
+    float: right;
+    max-width: 34%;
+    flex: 34%;
+    margin-left: 0;
+  }
+
+  .experiences {
+    float: left;
+    flex: 64%;
+    max-width: 64%;
+  }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 400px)  {
+
+}
+
+
 @media print {
+  body {zoom:  .55}
+
+  .studies, .skills {
+    float: right;
+    max-width: 32%;
+    flex: 32%;
+    margin-left: 0;
+  }
+
+  .experiences {
+    float: left;
+    flex: 64%;
+    max-width: 64%;
+  }
+  .card {
+    break-inside: avoid;
+  }
   .col-print-1 {width:8%; max-width:8%;  float:left;}
   .col-print-2 {width:16%; max-width:16%; float:left;}
   .col-print-3 {width:25%; max-width:25%; float:left;}

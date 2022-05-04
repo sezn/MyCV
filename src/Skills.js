@@ -5,6 +5,7 @@ class Skills extends Component {
 	render() {
 		return (
             <div class="skills card">
+            
                 {
                   data.Skills.map((skill) => {
                     return (
