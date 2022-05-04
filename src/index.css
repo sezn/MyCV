@@ -73,6 +73,12 @@ h4, .role {
 .logo {
   display: inline-block; /* or block */
   width: 128px;
+  margin-right: 32px;
+}
+
+.school {
+  align-content: center;
+  display: flex;
 }
 
 .section-header {
@@ -92,6 +98,10 @@ img.hover-zoom:hover {
 
 ul {
   list-style-type: circle;
+}
+
+.loc-icon {
+  margin-right: 8px;
 }
 
 @media only screen and (min-width: 1279px) {
@@ -145,4 +155,10 @@ ul {
   .col-print-11{width:92%; max-width:92%; float:left;}
   .col-print-12{width:100%; max-width:100%; float:left;}
   .badge{transition: none !important; box-shadow: none !important; border: none !important;}
+}
+
+
+
+.lev {
+  float: right;
 }

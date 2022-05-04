@@ -4,8 +4,7 @@ import data from "./data";
 class Skills extends Component {
 	render() {
 		return (
-            <div class="skills card">
-            
+            <div class="skills">
                 {
                   data.Skills.map((skill) => {
                     return (
