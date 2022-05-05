@@ -1,7 +1,7 @@
 
 body {
   background-attachment: scroll;
-  background-color: #F6F6F6;
+  background-color: whitesmoke;
   background-origin: padding-box;
   background-size: auto auto;
   margin: 0;
@@ -14,10 +14,11 @@ body {
 }
 
 .header{
+  display: flex;
   padding: 12px;
   color: floralwhite;
   background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(44,67,80,1) 35%, rgba(44,67,80,1) 100%);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(44,67,80,1) 35%, rgba(44,67,80,1) 100%);
   /**background-color: #2c4350;**/
 }
 
@@ -38,6 +39,10 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(44,67,80,1) 35%, rgba
   margin: 20px;
 }
 
+.area {
+  margin-top: 8px;
+}
+
 .studies, .skills {
   margin-left: 20px;
   margin-right: 24px;
@@ -46,7 +51,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(44,67,80,1) 35%, rgba
 .card, .skills {
   background: #fff;
   border-radius: 0.25em;
-  padding: 1em;
+  padding: 12px;
   -webkit-box-shadow: 0 3px 0 #ddd;
   box-shadow: 0 3px 0 #ddd;
 }
@@ -60,9 +65,13 @@ h4, .role {
   font-size: 1.25rem;
   color: #050a47;
 }
-
+/*
 .role {
   margin-left: 32px;
+}*/
+
+.logo-sc {
+  float: right;
 }
 
 .dates{
@@ -74,11 +83,6 @@ h4, .role {
   display: inline-block; /* or block */
   width: 128px;
   margin-right: 32px;
-}
-
-.school {
-  align-content: center;
-  display: flex;
 }
 
 .section-header {
@@ -104,12 +108,17 @@ ul {
   margin-right: 8px;
 }
 
-@media only screen and (min-width: 1279px) {
+.sk-title {
+  padding-left: 12px;
+}
+
+@media only screen and (min-width: 1200px) {
   .studies, .skills {
     float: right;
     max-width: 34%;
     flex: 34%;
     margin-left: 0;
+    padding: 0;
   }
 
   .experiences {
@@ -119,8 +128,10 @@ ul {
   }
 }
 
-@media only screen and (max-width: 600px) and (min-width: 400px)  {
-
+@media only screen and (max-width: 1200px) and (min-width: 400px)  {
+  .study {
+    margin-top: 8px;
+  }
 }
 
 

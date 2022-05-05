@@ -1,16 +1,12 @@
 {
-  "SocialMedias": [
-    "https://github.com/",
-    "https://www.linkedin.com/",
-    "https://www.facebook.com/"
-  ],
   "User": {
     "name": "Julien Sizorn",
     "job": "Développeur Android Senior | Lead Dev Apps Android / Apple",
     "mail": "julien.sezn@gmail.com",
     "phone": "0628081127",
     "loc": "Paris 19",
-    "permis": "Permis B"
+    "permis": "Permis B",
+    "about": "Ces dernières années, j'ai essentiellement travaillé sur des projets TV, d'Apps de Streaming.</br>J'administre mon propre serveur Debian pour mon Gitlab-CI, je bidouille des serveurs depuis pas mal d'années.."
   },
   "Schools": [
     {
@@ -197,10 +193,7 @@
           "description": "Mise en place et configuration de tablettes Android (Changement de ROM, app preinstallées, paramétrage..)"
         },
         {
-          "description": "Gestion de l'informatique, mise en places d'activités multimédia (Soirée X-Box sur la plage, ciné, soirée DJ..)"
-        },
-        {
-          "description": "Tests d'activités, accompagnement de certains clients, montage video pour le Youtube Kappa Club.."
+          "description": "Tests d'activités, accompagnement de certains clients, montage video pour le Youtube Kappa Club, mise en places d'activités multimédia (Soirée X-Box sur la plage, ciné, soirée DJ..)"
         }
       ]
     },
@@ -268,24 +261,33 @@
           "Hot": true
         }
       ]
-    }, {
+    },
+
+     {
+      "Area": "Librairies utilisées régulièrement",
+      "SkillSet": [      	 
+        {
+          "Name": "Android: Navigation Component, OkHttp, Retrofit, Dagger | Koin, Firebase, glide, ExoPlayer, RxJava | RxKotlin"
+        },
+        {
+          "Name": "iOS: Alamofire, SwiftUI, Firebase, RxSwift"
+        }
+      ]
+		},
+     {
       "Area": "Passions",
       "SkillSet": [      	 
         {
-          "Name": "Mix, scratch, beatmaking",
-          "Hot": true
+          "Name": "Mix, scratch, beatmaking"
         },
         {
-          "Name": "Voile",
-          "Hot": true
+          "Name": "Voile"
         },
         {
-          "Name": "Cuisine",
-          "Hot": true
+          "Name": "Cuisine"
         },
         {
-          "Name": "Jeux Video",
-          "Hot": true
+          "Name": "Jeux Video"
         }
       ]
     }

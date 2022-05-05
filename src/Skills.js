@@ -9,7 +9,7 @@ class Skills extends Component {
                   data.Skills.map((skill) => {
                     return (
                       <div>
-                        <h4>{skill.Area}</h4>
+                        <div class="sk-title"><h4>{skill.Area}</h4></div>
                         <ul>
                           {
                             skill.SkillSet.map((skillDetail) => {
