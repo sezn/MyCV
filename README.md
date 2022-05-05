@@ -1,7 +1,7 @@
-#This project is a CV Generator
-##The idea is to begin a React project (and have a good CV).
+# This project is a CV Generator
+## The idea is to begin a React project (and have a good CV).
 
-###There is some Components 
+### There is some Components 
     Header
     Experiences
     Schools
@@ -9,12 +9,12 @@
     About
 who load a .json file
 
-##For launch Project:
+## For launch Project:
 ### `npm start`
-###For see on Mobile device on same network:
+### For see on Mobile device on same network:
 ### `ngrok http 3000 `
 
-##For build Project:
+## For build Project:
 ### `npm run build`
 
 
