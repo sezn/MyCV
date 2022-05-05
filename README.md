@@ -18,7 +18,7 @@ who load a .json file
 ### `npm run build`
 
 # Release
-## For the release, I run `npm run build`, then, just pull my git on my web repository who point on /public folder 
+For the release, I run `npm run build`, then, just pull my git on my web repository who point on /public folder 
 
 
 # Doc added by npx create-react-app "szncv"
