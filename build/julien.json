@@ -4,7 +4,7 @@
     "job": "Développeur Android Senior | Lead Dev Apps Android / Apple",
     "mail": "julien.sezn@gmail.com",
     "phone": "0628081127",
-    "loc": "Paris 19",
+    "location": "Paris 19",
     "permis": "Permis B",
     "about": "Ces dernières années, j'ai essentiellement travaillé sur des projets TV, d'Apps de Streaming.</br>J'administre mon propre serveur Debian pour mon Gitlab-CI, je bidouille des serveurs depuis pas mal d'années.."
   },
@@ -270,7 +270,7 @@
           "Hot": true
         },       
         {
-          "Name": "React (Ce CV est fait avec REACT et charge un fichier <a href='toto'>json</a>)",
+          "Name": "React (Ce CV est fait avec REACT et charge un fichier <a href='/julien.json' target='_blank'>json</a>)",
           "Hot": true
         },
 

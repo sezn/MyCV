@@ -9,12 +9,13 @@
     About
 who load a .json file
 
-For launch Project:
-### `npm run build`
-
-For see on Mobile device on same network:
+##For launch Project:
+### `npm start`
+###For see on Mobile device on same network:
 ### `ngrok http 3000 `
 
+##For build Project:
+### `npm run build`
 
 
 
