@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import data from "./data"; 
+import data from "./julien"; 
 import dateFormat, { masks } from "dateformat";
 import { GrMapLocation } from "@react-icons/all-files/gr/GrMapLocation";
+import parse from 'html-react-parser'
 
 
 function Company(exp){
@@ -54,7 +55,7 @@ class Experiences extends Component {
 									<ul>
 											{experience.roles.map(function (role, i) {
 												return <li key={i}> 
-													<p>{role.description}</p>
+													<p>{parse(role.description)}</p>
 												</li>
 											})}
 									</ul>

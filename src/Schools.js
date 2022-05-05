@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import data from "./data"; 
+import data from "./julien"; 
 import Experiences from './Experiences';
 import { GrMapLocation } from "@react-icons/all-files/gr/GrMapLocation";
 
@@ -20,7 +20,7 @@ function Location(prop) {
 			</div>
 }
 
-class Formations extends Component {
+class Schools extends Component {
 	render() {
 		return (
             <div class="studies">
@@ -46,4 +46,4 @@ class Formations extends Component {
         );
     }
 } 
-export default Formations;
+export default Schools;

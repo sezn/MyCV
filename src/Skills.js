@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import data from "./data"; 
+import data from "./julien"; 
+import parse from 'html-react-parser'
 
 class Skills extends Component {
 	render() {
@@ -15,7 +16,7 @@ class Skills extends Component {
                             skill.SkillSet.map((skillDetail) => {
                               return (
                                   <li>
-                                    {skillDetail.Name}
+                                    {parse(skillDetail.Name)}
                                   </li>
                               );
                             })

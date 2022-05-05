@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import data from "./julien"; 
 
+const socialMediaList = data.SocialMedias;
 
 function Linkedn(){
     return <div class="linkedin-image display-flex justify-center">
@@ -32,3 +33,12 @@ class Header extends Component {
     }
 } 
 export default Header;
+
+
+
+
+/**
+<Linkedn/>
+                <ul>
+                    {socialMediaList.map(s => (<li>{s}</li>))}
+                </ul>**/
