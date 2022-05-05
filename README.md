@@ -1,3 +1,25 @@
+#This project is a CV Generator
+##The idea is to begin a React project (and have a good CV).
+
+###There is some Components 
+    Header
+    Experiences
+    Schools
+    Skills
+    About
+who load a .json file
+
+For launch Project:
+### `npm run build`
+
+For see on Mobile device on same network:
+### `ngrok http 3000 `
+
+
+
+
+
+Doc added by npx create-react-app "szncv"
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -48,18 +70,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-For launch Project:
-### `npm run build`
-
-For see on Mobile device on same network:
-### `ngrok http 3000 `
-
-This project is a CV Generator
-The idea is to begin a React project (and have a good CV).
-
-There is 
-    Header
-    Experiences
-    Schools
-    Skills

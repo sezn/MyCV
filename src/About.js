@@ -25,7 +25,7 @@ class Header extends Component {
                     <div class='job'><b>{ data.User.job }</b></div>
                     <div>{ data.User.mail }</div>
                     <div>{ data.User.phone }</div>
-                    <div>Localisation: { data.User.loc }</div>
+                    <div>Localisation: { data.User.location }</div>
                     <div>{ data.User.permis }</div>
                 </div>
             </div>
