@@ -17,10 +17,11 @@ who load a .json file
 ## For build Project:
 ### `npm run build`
 
+# Release
+## For the release, I run `npm run build`, then, just pull my git on my web repository who point on /public folder 
 
 
-
-Doc added by npx create-react-app "szncv"
+# Doc added by npx create-react-app "szncv"
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
