@@ -79,7 +79,7 @@
       "location": "Neuilly sur seine",
       "roles": [
         {
-          "description": "Développement d'application Jamais Sans Mes Lentilles (Optic 2000)"
+          "description": "Développement d'application <div class='hover-title'>Jamais Sans Mes Lentilles</div><div class='hover-image'><img src='lentilles.png'></div> (Optic 2000)"
         },
         {
           "description": "Application MyContacto, pour la gestion d'abonnement Opticiens. Billing avec Paypal."
@@ -137,16 +137,13 @@
           "description": "Développement d'une application de gestion et optimisation des visites de représentants/vendeurs. Version android mini fixée à 4, pour pouvoir profiter des dernières avancées du sdk."
         },
         {
-          "description": "Développement d'une application Android FSM déployée sur le réseau africain d'une grand entreprise de télécom pour la gestion de la vente des cartes SIM, reporting etc. (Synchronisations, gestion de flux, grosse base de données communiquant avec des web services, remontée de crashes après plantage au prochain lancement, le tout derrière un proxy spécifique à chaque pays)."
+          "description": "Développement d'une application Android <div class='hover-title'>FSM</div><div class='hover-image'><img src='FSM.png'></div> déployée sur les réseaux Orange Afrique pour la gestion de la vente des cartes SIM, reporting etc. (Synchronisations, gestion de flux, grosse base de données communiquant avec des web services, remontée de crashes après plantage au prochain lancement, le tout derrière un proxy spécifique à chaque pays)."
         },
         {
           "description": "Installation et utilisation d'un environnement de contrôle de la production et de la qualité de code avec SONAR, MAVEN, HUDSON, sur un serveur debian. Multi langages, dont Java Android, avec le sdk sur ce même serveur."
         },
         {
-          "description": "Développement d'une application Android pour le Galaxy Note III et du site qui va avec, dans le cadre d'une opération commerciale. Et du site qui va avec."
-        },
-        {
-          "description": "Cette application permet de se prendre en photo et d'ajouter des items, fonds d'écran etc, puis envoi vers un server pour l'affichage sur un site web. (Internationale, pres de 100000 photos on été prises)."
+          "description": "Développement d'une application <div class='hover-title'>Happyfaces</div><div class='hover-image'><img src='https://scontent-cdt1-1.xx.fbcdn.net/v/t1.18169-9/960280_10202677687053646_173713188_n.jpg?_nc_cat=103&ccb=1-6&_nc_sid=cdbe9c&_nc_ohc=ZE1bObzpbqkAX-B4Gai&_nc_ht=scontent-cdt1-1.xx&oh=00_AT8mKf3vmnawqCBCZXu2exmUgTxNcVcLhKZGgDi80UyNNw&oe=629C0B75'></div> pour le Galaxy Note III et du site qui va avec, dans le cadre d'une opération commerciale en faveur des enfants autistes. Cette application permet de se prendre en photo et d'ajouter des items, fonds d'écran etc, puis envoi vers un server pour l'affichage sur un site web. (pres de 100000 photos on été prises)."
         },
         {
           "description": "Mise en place de bases de données, architecture, requetes SQL, Procedures stockees."
