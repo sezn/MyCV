@@ -112,6 +112,11 @@ ul {
   padding-left: 12px;
 }
 
+
+.logo:hover{
+    background-image: url('FSM.png');
+}
+
 @media only screen and (min-width: 1200px) {
   .studies, .skills {
     float: right;

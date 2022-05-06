@@ -40,7 +40,6 @@ class Experiences extends Component {
 		return (
             <div class="experiences">
 				<div class="section-header"><h4>Experiences</h4></div>
-
                 {
 					data.Experiences.map((experience, i) => {
 						return (

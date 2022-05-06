@@ -137,7 +137,7 @@
           "description": "Développement d'une application de gestion et optimisation des visites de représentants/vendeurs. Version android mini fixée à 4, pour pouvoir profiter des dernières avancées du sdk."
         },
         {
-          "description": "Développement d'une application Android déployée sur le réseau africain d'une grand entreprise de télécom pour la gestion de la vente des cartes SIM, reporting etc. (Synchronisations, gestion de flux, grosse base de données communiquant avec des web services, le tout derrière un proxy spécifique à chaque pays)."
+          "description": "Développement d'une application Android FSM déployée sur le réseau africain d'une grand entreprise de télécom pour la gestion de la vente des cartes SIM, reporting etc. (Synchronisations, gestion de flux, grosse base de données communiquant avec des web services, remontée de crashes après plantage au prochain lancement, le tout derrière un proxy spécifique à chaque pays)."
         },
         {
           "description": "Installation et utilisation d'un environnement de contrôle de la production et de la qualité de code avec SONAR, MAVEN, HUDSON, sur un serveur debian. Multi langages, dont Java Android, avec le sdk sur ce même serveur."
@@ -149,7 +149,7 @@
           "description": "Cette application permet de se prendre en photo et d'ajouter des items, fonds d'écran etc, puis envoi vers un server pour l'affichage sur un site web. (Internationale, pres de 100000 photos on été prises)."
         },
         {
-          "description": "Mise en place de base de données, architecture, requetes SQL, Procedures stockees."
+          "description": "Mise en place de bases de données, architecture, requetes SQL, Procedures stockees."
         }
       ]
     },
