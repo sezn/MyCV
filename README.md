@@ -1,12 +1,12 @@
 # This project is a CV Generator
-## The idea is to begin a React project (and have a good CV).
+The idea is to begin a React project (and have a good CV).
 
-### There is some Components 
-    Header
-    Experiences
-    Schools
-    Skills
-    About
+There is some Components 
+  Header
+  Experiences
+  Schools
+  Skills
+  About
 who load a .json file
 
 ## For launch Project:
