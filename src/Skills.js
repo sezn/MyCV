@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import data from "./julien"; 
+import data from "./user"; 
 import parse from 'html-react-parser'
 
 class Skills extends Component {

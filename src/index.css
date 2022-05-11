@@ -120,7 +120,7 @@ ul {
 @media only screen and (min-width: 1200px) {
   .studies, .skills {
     float: right;
-    max-width: 34%;
+    width: 34%;
     flex: 34%;
     margin-left: 0;
     padding: 0;
@@ -129,7 +129,7 @@ ul {
   .experiences {
     float: left;
     flex: 64%;
-    max-width: 64%;
+    width: 64%;
   }
 }
 
@@ -145,7 +145,7 @@ ul {
 
   .studies, .skills {
     float: right;
-    max-width: 32%;
+    width: 32%;
     flex: 32%;
     margin-left: 0;
   }
@@ -153,7 +153,7 @@ ul {
   .experiences {
     float: left;
     flex: 64%;
-    max-width: 64%;
+    width: 64%;
   }
   .card {
     break-inside: avoid;

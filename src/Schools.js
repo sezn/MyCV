@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import data from "./julien"; 
+import data from "./user"; 
 import Experiences from './Experiences';
 import { GrMapLocation } from "@react-icons/all-files/gr/GrMapLocation";
 

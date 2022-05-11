@@ -1,0 +1,67 @@
+{
+  "User": {
+    "name": "Julien Szn",
+    "job": "Développeur Android",
+    "mail": "julien.sezn@gmail.com",
+    "phone": "XXXXXXXXX",
+    "loc": "Paris",
+    "about": "Test.."
+  },
+  "Schools": [
+    {
+      "study": "TODO",
+      "name": "TODO",
+      "date": "TODO",
+      "location": "TODO",
+      "logo": "TODO",
+      "url": "TODO"
+    }
+  ],
+  "Experiences": [
+    {
+      "companyName": "TODO",
+      "logo": "TODO",
+      "url": "TODO",
+      "job": "Lead Dev Apps Android | Apple",
+      "type": "",
+      "startDate": "Février",
+      "endDate": "Juin",
+      "location": "Paris",
+      "roles": [
+        {
+          "description": "Dev..."
+        }
+      ]
+    }
+  ],
+  "Skills": [
+    {
+      "Area": "Languages de Programmation ",
+      "SkillSet": [
+        {
+          "Name": "Java"        
+        },
+        {
+          "Name": "Kotlin"
+        }
+      ]
+    },
+    {
+      "Area": "Outils de Dévelopement",
+      "SkillSet": [
+        {
+          "Name": "Android Studio, XCode, Gitlab CI.."
+        }
+      ]
+    },
+
+     {
+      "Area": "Passions",
+      "SkillSet": [        
+        {
+          "Name": "Jeux Video"
+        }
+      ]
+    }
+  ]
+}

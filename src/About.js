@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import data from "./julien"; 
+import data from "./user"; 
 
 const socialMediaList = data.SocialMedias;
 

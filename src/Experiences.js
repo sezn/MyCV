@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import data from "./julien"; 
+import data from "./user"; 
 import dateFormat, { masks } from "dateformat";
 import { GrMapLocation } from "@react-icons/all-files/gr/GrMapLocation";
 import parse from 'html-react-parser'
@@ -23,8 +23,8 @@ function Experience(exp){
 	return <span class="role"><b>{exp.experience.job}</b> <span class="normal">{exp.experience.type}</span></span>
 }
 
-function Gogole(prop){ 
-	var link = "https://www.google.com/maps/place/" + prop.experience.location
+function Gogole(exp){ 
+	var link = "https://www.google.com/maps/place/" + exp.experience.location
 	return <span><a href={link} target="_blank"><GrMapLocation class="loc-icon" color="green"/></a></span>
 }
 
