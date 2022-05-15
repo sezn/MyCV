@@ -1,7 +1,7 @@
 # This project is a CV Generator
 The idea is to begin a React project (and have a good CV).
 
-I checked [react-cv-builder](https://darylbuckle.dev/react-cv-builder/), and took some ideas but did it in js to discover REACT
+I checked [react-cv-builder](https://github.com/DarylBuckle/react-cv-builder), and took some ideas but did it in js to discover REACT
 
 There is some components: 
 #### [Header](/src/Header.js)
