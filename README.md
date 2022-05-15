@@ -2,6 +2,7 @@
 The idea is to begin a React project (and have a good CV).
 
 I checked [react-cv-builder](https://darylbuckle.dev/react-cv-builder/), and took some ideas but did it in js to discover REACT
+
 There is some components: 
 #### [Header](/src/Header.js)
 #### [Experiences](/src/Experiences.js)
