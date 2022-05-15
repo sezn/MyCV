@@ -1,12 +1,12 @@
 # This project is a CV Generator
 The idea is to begin a React project (and have a good CV).
-
+I checked [react-cv-builder](https://darylbuckle.dev/react-cv-builder/), and took some ideas but did it in js to discover REACT
 There is some components: 
-#### Header
-#### Experiences
-#### Schools
-#### Skills
-#### About
+#### [Header](/src/Header.js)
+#### [Experiences](/src/Experiences.js)
+#### [Schools](/src/Schools.js)
+#### [Skills](/src/[Skills].js)
+#### [About](/src/About.js)
 who load a .json file with all datas..
 
 ## For launch Project:
